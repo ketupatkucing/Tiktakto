@@ -1,0 +1,38 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+
+}
+.container {
+  width: 100%;
+  height: 100%;
+  border: solid 2px;
+  display: grid;
+  grid-template-columns: repeat(3, 3fr)
+}
+.kotak {
+  border: solid 1px;
+  width: 100%;
+  height: 100px;
+}
+button {
+  width: 100%;
+  height: 100px;
+  
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 82px
+
+}
+p {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 82px
+
+}
